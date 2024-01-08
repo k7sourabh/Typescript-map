@@ -47,9 +47,9 @@ function Map1(): JSX.Element {
    
   }
 
-  // const onLoadCallback = useCallback((map: GoogleMap) => {
+  const onLoadCallback = useCallback((map: GoogleMap) => {
    
-  // }, []);
+  }, []);
 
   return isLoaded ? (
     <div>
