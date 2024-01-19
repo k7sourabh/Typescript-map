@@ -16,6 +16,7 @@ code {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  
 }
 .label-input input {
   padding: 5px 10px;
@@ -51,5 +52,5 @@ code {
 }
 .heading h2{
   color: #00000091;
-  
+
 }
