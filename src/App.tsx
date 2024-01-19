@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Map1 from './Google-map/Map1';
 
