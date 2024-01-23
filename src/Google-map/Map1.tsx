@@ -10,7 +10,7 @@ const center = {
 function Map1(): JSX.Element {
   const { isLoaded } = useJsApiLoader({ id: "ram", googleMapsApiKey: "AIzaSyAzWKGxZZskJtVG-nHHScjFV1K7E8MaxHY", libraries });
   const [directions, setDirections] = useState<google.maps.DirectionsResult | null>(null);
-
+ console.log("directions",directions)
   const mapRef = useRef<GoogleMap>(null);
   const startInputRef = useRef<HTMLInputElement>(null);
   const endInputRef = useRef<HTMLInputElement>(null);
@@ -48,7 +48,7 @@ function Map1(): JSX.Element {
   }
 
   const onLoadCallback = useCallback((map: GoogleMap) => {
-   
+    console.log("hello")
    
   }, []);
 
